@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+   <preference for="Ziffity\Task\Api\Data\CustomInterface" type="Ziffity\Task\Model\Custom"/>
+    <preference for="Ziffity\Task\Api\RepositoryInterface" type="Ziffity\Task\Model\Repository"/>
+    <preference for="Ziffity\Task\Api\Data\CartInterface" type="Ziffity\Task\Model\Cart"/>
+</config>

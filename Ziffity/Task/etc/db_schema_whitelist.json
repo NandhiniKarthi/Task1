@@ -1,0 +1,14 @@
+{
+    "crud_data": {
+        "column": {
+            "id": true,
+            "sku": true,
+            "customerid": true,
+            "createdat": true,
+            "quoteid": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

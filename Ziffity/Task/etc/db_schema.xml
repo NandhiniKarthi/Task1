@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Created By :
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+   <table name="crud_data" resource="default" engine="innodb" comment="Data Base">
+      <column xsi:type="smallint" name="id" padding="6" unsigned="false" nullable="false" identity="true" comment="ID" />
+      <column xsi:type="varchar" name="sku" nullable="false" length="25" comment="Sku" />
+      <column xsi:type="varchar" name="customerid" nullable="true" length="25" comment="C_Id" />
+      <column xsi:type="varchar" name="quoteid" nullable="true" length="25" comment="Q_Id" />
+      <column xsi:type="timestamp" name="createdat" default="CURRENT_TIMESTAMP" nullable="false" comment="Created_At" />
+      <constraint xsi:type="primary" referenceId="PRIMARY">
+         <column name="id" />
+      </constraint>
+   </table>
+</schema>
